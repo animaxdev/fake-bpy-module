@@ -70,7 +70,7 @@ function download_blender() {
         curl ${url} -o ${filename}
         tar -jxvf ${filename}
         rm ${filename}
-    elif [ ${url##*.} = "xz"]; then
+    elif [ ${url##*.} = "xz" ]; then
         filename=${filename}.xz
         curl ${url} -o ${filename}
         tar Jxvf ${filename}

@@ -1,0 +1,26 @@
+{
+    "update": [
+        {
+            "name": "UILayout",
+            "type": "class",
+            "module": "bpy.types",
+            "methods": [
+                {
+                    "name": "prop_with_popover",
+                    "type":"method",
+                    "module": "bpy.types",
+                    "parameters": [
+                        "data",
+                        "property",
+                        "text=\"\"",
+                        "text_ctxt=\"\"",
+                        "translate=True",
+                        "icon=0",
+                        "icon_only=False",
+                        "panel=\"\""
+                    ]
+                }
+            ]
+        }
+    ]
+}

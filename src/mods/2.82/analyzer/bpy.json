@@ -34,6 +34,22 @@
                         "icon_only=False",
                         "menu=\"\""
                     ]
+                },
+                {
+                    "name": "operator_menu_hold",
+                    "type":"method",
+                    "module": "bpy.types",
+                    "parameters": [
+                        "operator",
+                        "text=\"\"",
+                        "text_ctxt=\"\"",
+                        "translate=True",
+                        "icon=0",
+                        "emboss=True",
+                        "depress=False",
+                        "icon_value=0",
+                        "menu=\"\""
+                    ]
                 }
             ]
         }

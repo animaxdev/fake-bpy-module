@@ -19,6 +19,21 @@
                         "icon_only=False",
                         "panel=\"\""
                     ]
+                },
+                {
+                    "name": "prop_with_menu",
+                    "type":"method",
+                    "module": "bpy.types",
+                    "parameters": [
+                        "data",
+                        "property",
+                        "text=\"\"",
+                        "text_ctxt=\"\"",
+                        "translate=True",
+                        "icon=0",
+                        "icon_only=False",
+                        "menu=\"\""
+                    ]
                 }
             ]
         }

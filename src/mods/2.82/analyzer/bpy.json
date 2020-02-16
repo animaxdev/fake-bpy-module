@@ -1,6 +1,21 @@
 {
     "update": [
         {
+            "name": "BlendData",
+            "type": "class",
+            "module": "bpy.types",
+            "methods": [
+                {
+                    "name": "batch_remove",
+                    "type": "method",
+                    "module": "bpy.types",
+                    "parameters": [
+                        "ids=()"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "UILayout",
             "type": "class",
             "module": "bpy.types",
